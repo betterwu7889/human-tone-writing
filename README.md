@@ -165,7 +165,7 @@ npx skills add https://github.com/betterwu7889/human-tone-writing
 git clone https://github.com/betterwu7889/human-tone-writing.git ~/.claude/skills/人味儿写作
 ```
 
-安装后，直接描述需求即可触发（"帮我写一段有温度的话"、"这稿子 AI 味太重帮我改改"）。在 Claude Code 中也可建斜杠命令 `/人味儿写作` 手动调用。
+安装后，直接描述需求即可触发（"帮我写一段有温度的话"、"这稿子 AI 味太重帮我改改"）。
 
 ---
 
