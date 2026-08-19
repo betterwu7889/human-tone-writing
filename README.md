@@ -155,15 +155,17 @@ AI 默认一种文风写到底，这一层让它"看人下菜碟"。
 
 ## 安装
 
+这是一个标准 SKILL.md 格式的技能，适用于所有支持 Agent Skills 的工具——Claude Code、Cursor、Codex、GitHub Copilot、Windsurf 等，安装命令相同。
+
 ```bash
-# 方式一：skills 工具安装
+# 方式一：skills 工具安装（自动识别你的 agent）
 npx skills add https://github.com/betterwu7889/human-tone-writing
 
-# 方式二：手动安装
+# 方式二：手动安装到 Claude Code
 git clone https://github.com/betterwu7889/human-tone-writing.git ~/.claude/skills/人味儿写作
 ```
 
-安装后，直接描述需求即可触发（"帮我写一段有温度的话"、"这稿子 AI 味太重帮我改改"）。也可建斜杠命令 `/人味儿写作` 手动调用。
+安装后，直接描述需求即可触发（"帮我写一段有温度的话"、"这稿子 AI 味太重帮我改改"）。在 Claude Code 中也可建斜杠命令 `/人味儿写作` 手动调用。
 
 ---
 
